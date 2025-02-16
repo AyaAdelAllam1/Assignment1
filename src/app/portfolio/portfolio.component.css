@@ -1,0 +1,19 @@
+section{
+    height: 120vh;
+   
+    
+}
+.line{
+    width: 5.5rem;
+    height: 0.2rem;
+    background-color: #2b3d4fff;
+}
+h1{
+    color: #2b3d4fff;
+}
+.cursor-Pointer{
+  cursor: pointer;
+}
+.modle_{
+    z-index: 9999999;
+}

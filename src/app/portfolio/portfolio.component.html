@@ -1,0 +1,35 @@
+<section class="mt-5">
+    <div class="container-fluid text-center py-3 mt-5">
+        <div class="container py-2">
+            <div>
+                <h1 class="fw-bold fs-1 pt-2 mt-5">portfolio component</h1>
+        
+                <div class="line d-inline-block me-2 text-center mb-1"></div>
+                <i class="fa-solid fa-star  fa-xl"></i>
+                <div class="line d-inline-block ms-2 mb-1"></div>
+              
+              </div>
+        </div>
+       
+          <div class="container">
+            <div class="row g-2">
+                @for (src of imgSrc; track $index ) {
+                    
+                <div class="col-md-4 cursor-Pointer">
+                    <div (click)="isHidden=false ; img=src" class="crd">
+                        <img [src]="src" class="w-75" alt="home">
+                    </div>
+                   
+                   </div> 
+                    } @empty {
+                    <h2>not found data</h2>
+                    }
+                     
+              </div>
+          </div>
+       
+          <div [class.d-none]="isHidden" (click)="Hide( $event.target  , el )" class="modle_ position-fixed top-0 bottom-0 start-0 end-0 bg-primary bg-opacity-25 d-flex justify-content-center align-items-center">
+                    <img [src]="img" #el class="w-25" alt="home">
+          </div>
+    </div>
+</section>

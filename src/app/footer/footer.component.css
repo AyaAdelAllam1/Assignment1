@@ -1,0 +1,19 @@
+footer{
+    background-color: #2b3d4fff !important;
+}
+.footer-bottom{
+    background-color: #19242eff !important;
+}
+ 
+  .social-icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+  }

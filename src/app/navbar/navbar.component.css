@@ -1,0 +1,27 @@
+nav {
+  height: 8rem;
+  transition: height 0.3s ease-in-out;
+  background-color: #2b3d4fff !important;
+  z-index: 999999;
+}
+:root{
+    --bs-white: #fff;
+}
+.navbar{
+    --bs-navbar-brand-color: var(--bs-white);
+    --bs-navbar-brand-hover-color:  var(--bs-white);
+    --bs-navbar-hover-color:  var(--bs-white);
+    --bs-navbar-color:  var(--bs-white);
+    transition: all 0.3s ease-in-out;
+  padding: 20px 0;
+}
+.navbar.scrolled {
+    height: 4rem; 
+    background-color: #222;
+  }
+  .activeLink{
+    background-color: #1abd9cff;
+    padding: 7px;
+    border-radius: 7px;
+
+  }

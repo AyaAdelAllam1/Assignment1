@@ -1,0 +1,35 @@
+.line{
+    width: 5.5rem;
+    height: 0.2rem;
+    background-color: #2b3d4fff;
+}
+h1{
+    color: #2b3d4fff;
+}
+.cursor-Pointer{
+  cursor: pointer;
+}
+.modle_{
+    z-index: 9999999;
+}
+section{
+    height: 100vh;
+    margin-top: 7.5rem;
+}
+
+
+  label {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+    color: #1abd9c;
+  }
+  
+  .__top {
+    opacity: 1;
+    visibility: visible;
+  }
+  

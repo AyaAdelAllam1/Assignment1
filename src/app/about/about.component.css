@@ -1,0 +1,11 @@
+section{
+    height: 90vh;
+    background-color: #1abd9cff;
+    padding-top: 3rem;
+    margin-top: 1rem;
+}
+.line{
+    width: 5.5rem;
+    height: 0.2rem;
+    background-color: #ffffff;
+}

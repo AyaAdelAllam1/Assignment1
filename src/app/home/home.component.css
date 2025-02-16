@@ -1,0 +1,10 @@
+section{
+    height: 94vh;
+    background-color: #1abd9cff;
+    
+}
+.line{
+    width: 5.5rem;
+    height: 0.2rem;
+    background-color: #ffffff;
+}
